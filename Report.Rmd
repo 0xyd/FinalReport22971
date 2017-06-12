@@ -1,0 +1,46 @@
+# Import Crime Data
+```{r}
+library(readr)
+crimes_year <- read_csv("~/RCourse/RLectures/big_crime/data/警政署各縣市犯罪統計資料/year_crimes.csv")
+
+crimes_and_year_data <- crimes_year[crimes_year$縣市=='全國',]
+crimes_and_year_data <- crimes_and_year_data[, c('時間', '總計')]
+crimes_and_year_data$時間 <- gsub('年', '', crimes_and_year_data$時間)
+crimes_and_year_data$時間 <- as.numeric(crimes_and_year_data$時間)
+crimes_and_year_data <- crimes_and_year_data[order(crimes_and_year_data$時間),]
+ 
+
+```
+
+# Import GDP Data
+```{r}
+gdp_year <- read_csv("~/RCourse/RLectures/big_crime/data/全國GDP與人均所得/year_gdp.csv")
+gdp_year$year <- as.numeric(gsub('年|r|\\(|\\)', '', gdp_year$year))
+economy_growth <- gdp_year[seq(from=50, to=66), c('year', 'economy_growth')]
+economy_growth <- economy_growth[order(economy_growth$year),]
+
+income_trend <- gdp_year[seq(from=50, to=66), c('year', 'gdp_avg_nt_dollar')]
+income_trend <- income_trend[order(income_trend$year), ]
+
+
+
+```
+
+
+# Import Avg income per house and per person
+```{r}
+income_per_house <- read_csv("~/RCourse/RLectures/big_crime/data/全國GDP與人均所得/year_gdp.csv")
+```
+
+
+
+# Import Low and mid low income (Later)
+```{r}
+gdp_year <- read_csv("~/RCourse/RLectures/big_crime/data/全國GDP與人均所得/year_gdp.csv")
+economy_growth <- gdp_year[seq(from=50, to=66), c('year', 'economy_growth')]
+economy_growth$year <- as.numeric(gsub('年|r|\\(|\\)', '', economy_growth$year))
+economy_growth <- economy_growth[order(economy_growth$year),]
+```
+
+
+

@@ -691,27 +691,51 @@ population_dataframe.to_csv('../全國人口統計/各縣市人口統計.csv', c
 
 ![台灣犯罪總數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣犯罪案件趨勢圖.png)
 
+台灣的犯罪從民國89年一路直線上升至96年的高峰，之後犯罪人數直線下滑至100年開始呈緩步下探的趨勢。
+
 ![犯罪案件總數與財產犯罪](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣犯罪總數與財產犯罪趨勢圖.png)
+
+台灣犯罪總數趨勢圖與財產犯罪作比較，發現兩圖有極高的的相似度，視覺化的資料也告訴使用者台灣整體犯罪率的下降就是因為財產犯罪的大幅減少有非常密切的關係。
 
 ![犯罪案件總數與侵害個人法益犯罪](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣犯罪總數與侵害個人法益犯罪趨勢圖.png)
 
+雖說台灣越來越安全，但是侵害個人法益的犯罪卻還是緩步地上升。從最近幾年頻繁的隨機殺人案件就能略知一二。
+
 ![犯罪案件總數與毒品案件](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣犯罪總數與毒品犯罪趨勢圖.png)
+
+毒品已經是我國最大的犯罪問題之一，令人擔心的是，它似乎有再度走升的趨勢。
 
 ![犯罪案件總數與公共危險案件](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣犯罪總數與公共危險犯罪趨勢圖.png)
 
+公共危險罪中最常見的犯罪就是醉態駕車，從民國96年將公共危險罪的罪責提高至一年以下有期徒刑，100年再將有期徒刑刑度加倍並且加訂致死、致傷的有期徒刑，公共危險罪的犯罪人數因此驟減。然而最近這幾年有緩步上升的趨勢。
+
 ![台灣平均收入趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣平均所得趨勢圖.png)
+
+雖然我們不斷抱怨大環境的不景氣，但是全台灣的平均年收入卻不斷地上升。同時全國犯罪案件數量大幅下降，似乎好像與『富裕即安定』的想法不謀而合。
 
 ![全國低收入戶成長趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣低收入戶人數趨勢.png)
 
+然而事實上，台灣有越來越多人仰賴政府的補助，貧窮在這塊土地是比我們想像的還泛濫成災。
+
 ![全國中低收入戶趨勢圖](https://github.com/yudazilian/FinalReport22971/blob/master/images/台灣中低收入戶趨勢圖.png)
+
+社會救助法於民國101年增訂中低收入戶以期勉能夠擴及更多經濟上需要支援的民眾，而該類別一增訂，中低收入戶的人數旋即驟升。如此與低收入戶的持續成長趨勢並無不同。
 
 ![各縣市犯罪人口佔全國犯罪人口比例](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣各縣市犯罪人口佔總犯罪人口比例圖.png)
 
+人多犯罪人口就多是理所當然的事，因此五都基本上雄踞犯罪人口人數的前五寶座。
+
 ![各縣市四大類型犯罪人口佔全國四大類型犯罪人口比例](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台灣各縣市四大類犯罪人口比例圖.png)
+
+侵害個人法益的犯罪事件在各個縣市的比例大都遠小於其他三者，而財產犯罪是其中最為猖獗的。
 
 ![所得與犯罪](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/2015年各縣市平均所得與犯罪人數組圖.png)
 
+從左圖可以看到五都除了台北市有傲居群雄的收入以外，新北市、台中市、高雄市的收入與其他縣市相較之下並沒有比較高，台南市更是略遜於大部分的縣市，可是這些城市的犯罪人數確實也遠高於其他收入較為低的城市。若將顏色維度轉換成犯罪率的時候，我們就能發現除了台北市依然有很高的犯罪率以外，另外四個直轄市相較之下就更為“安全”。反而基隆市、花蓮縣、台東縣與宜蘭縣是治安較為不佳的縣市。他們的共同特色就是平均收入在全國實屬中後段，整體來說，收入較低的縣市顏色都趨近紅，也就是犯罪率略高。
+
 ![五都縣市合併前後犯罪人數的變化](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/五都縣市合併前後犯罪人數的變化.png)
+
+五都除了台北市外，前身為台北縣的新北市，縣市合併的台南市、台中市、高雄市都可以獲得更多中央的預算做各項的施政。因此他們不僅能夠擴充自己的警力，也能夠有較好的社會福利政策。尤其台中市、新北市、高雄市都有觀察到合併後的犯罪率有大幅驟降的趨勢。
 
 ![台北縣改制新北市犯罪人數與低收入戶人數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台北縣改制新北市犯罪人數與低收入戶人數趨勢圖.png)
 
