@@ -739,23 +739,43 @@ population_dataframe.to_csv('../全國人口統計/各縣市人口統計.csv', c
 
 ![台北縣改制新北市犯罪人數與低收入戶人數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台北縣改制新北市犯罪人數與低收入戶人數趨勢圖.png)
 
+新北市的低收入戶雖然在升格後的人數大幅上升，犯罪人數卻反而大幅驟降。除了更充裕的警力，或許好的社會福利政策撐住了在經濟上處於弱勢的百姓，他們毋需鋌而走險。
+
 ![台中縣市合併前後犯罪人數與低收入戶人數的變化](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/Screen%20Shot%202017-06-12%20at%203.55.35%20PM.png)
+
+如新北市，台中市的低收入戶雖然在縣市合併後的人數大幅上升，犯罪人數卻反而大幅驟降。
 
 ![臺南縣市合併前後犯罪人數與低收入戶人數的變化](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/Screen%20Shot%202017-06-12%20at%203.55.50%20PM.png)
 
+如新北市、台中市，高雄市的低收入戶雖然在縣市合併後的人數大幅上升，犯罪人數卻反而大幅驟降。但是這幾年的低收入戶人數下降且犯罪率有再度提高的趨勢。
+
 ![高雄縣市合併前後犯罪人數與低收入戶人數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/高雄縣市合併前後犯罪人數與低收入戶人數趨勢圖.png)
+
+如新北市、台中市，高雄市的低收入戶雖然在縣市合併後的人數大幅上升，犯罪人數卻反而大幅驟降。
 
 ![104年全國前五高犯罪率城市](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/民國104年全國前五高犯罪率城市.png)
 
+台北市依然榜上有名，其他的為號稱最不快樂的基隆市、好山好水的宜蘭、花蓮與台東。
+
 ![基隆市犯罪人數與低收入戶數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/基隆市犯罪人數與低收入戶數趨勢圖.png)
+
+基隆市的低收入戶人數不斷地上升，而犯罪人數則慢慢下降，但是最近幾年有再上升的疑慮。
 
 ![宜蘭縣犯罪人數與低收入戶數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/宜蘭縣犯罪人數與低收入戶數趨勢圖.png)
 
+宜蘭縣在民國97年以前，低收入戶的人數與犯罪率是正相關，之後犯罪人數卻大幅度的修正，從此犯罪率與低收入戶的關係呈現負相關。會不會宜蘭縣政府祭出更多低收入戶的社福政策讓經濟狀況窘迫的老百姓勉強繼續維生。
+
 ![花蓮縣犯罪人數與低收入戶數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/花蓮縣犯罪人數與低收入戶數趨勢圖.png)
+
+花蓮縣的低收入戶數與犯罪人數持續正相關，或許花蓮縣對低收入戶的補助不足導致的？
 
 ![台東縣犯罪人數與低收入戶數趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/台東縣犯罪人數與低收入戶數趨勢圖.png)
 
+民國99年前，低收入雖然持續增加，但是在台東縣的犯罪人數卻沒有太多變化；然而在100年後，犯罪人數與低收入戶人數同時增長。
+
 ![台北市犯罪人數與低收入戶數趨勢圖](https://github.com/yudazilian/FinalReport22971/blob/master/images/台北市犯罪人數與低收入戶數趨勢圖.png)
+
+在民國93年以前，低收入戶數與犯罪人數為正相關，但是在之後都是持續負相關。
 
 ![民國90-104年基隆市失業率與犯罪率趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/民國90-104年基隆市失業率與犯罪率趨勢圖.png)
 
@@ -766,3 +786,21 @@ population_dataframe.to_csv('../全國人口統計/各縣市人口統計.csv', c
 ![民國90-104年台東縣失業率與犯罪率趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/民國90-104年台東縣失業率與犯罪率趨勢圖.png)
 
 ![民國90-104年台北市失業率與犯罪率趨勢圖](https://raw.githubusercontent.com/yudazilian/FinalReport22971/master/images/民國90-104年台北市失業率與犯罪率趨勢圖.png)
+
+以上五個圖失業率對犯罪率的影響並沒有我預期的大，頗令人意外。
+
+分析結論
+--------
+
+1.  因為社會救助法給予地方政府相當的自治權，因此各縣市對經濟情形不好的民眾所給予的處置不太相同。像是有錢的縣市可能有比較多的社會福利政策例如社會住宅等等；財政狀況困難的縣市可能連中學教育的補貼都無法負擔，或許還是有許多人即使有了政府的津貼還是需要鋌而走險。
+
+2.  犯罪人數與該縣市所配置的警力有一定程度上的關係，有可能大都市的社會救助其實並沒有比較好，但是由於警力資源充足，犯罪的風氣能予以遏止。
+
+3.  犯罪樣態有很大的改變，以前人窮困潦倒時，較容易有偷盜之心；然而現在可能會選擇其他的方式，例如吸毒、酗酒等方式來宣洩負面的情緒。
+
+目錄說明
+--------
+
+1.  cralwer: python 爬蟲
+2.  data: pythno 解析器
+3.  Report.Rmd: R寫的資料視覺程式
